@@ -1,2 +1,0 @@
-[console_scripts]
-my_node = base.my_node:main

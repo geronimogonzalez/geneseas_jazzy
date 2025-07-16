@@ -1,2 +1,0 @@
-[console_scripts]
-serial_communication = serial_robot.communication_serial:main

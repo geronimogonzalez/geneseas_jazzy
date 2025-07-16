@@ -1,3 +1,0 @@
-[console_scripts]
-comunicacionROS = paquete.comunacionROS:main
-nodoSimple = paquete.nodoSimple:main

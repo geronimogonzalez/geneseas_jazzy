@@ -1,5 +1,0 @@
-  File "/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete/comunicacionROS.py", line 3
-    pip install rclpy
-        ^^^^^^^
-SyntaxError: invalid syntax
-

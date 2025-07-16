@@ -1,5 +1,0 @@
-  File "/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot/communication_serial.py", line 91
-    baudrate=self.baud_rate_,/home/robot/ros2_ws/src/serial_robot/serial_robot/communication_serial.py
-                             ^
-SyntaxError: invalid syntax
-

@@ -1,5 +1,0 @@
-  File "/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot/communication_serial.py", line 201
-    Método llamado por el temporizador para leer datos del Arduino.
-           ^^^^^^^
-SyntaxError: invalid syntax
-
