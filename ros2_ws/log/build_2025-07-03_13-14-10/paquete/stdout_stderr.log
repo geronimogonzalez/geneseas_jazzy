@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/paquete/paquete.egg-info
+writing ../../build/paquete/paquete.egg-info/PKG-INFO
+writing dependency_links to ../../build/paquete/paquete.egg-info/dependency_links.txt
+writing entry points to ../../build/paquete/paquete.egg-info/entry_points.txt
+writing requirements to ../../build/paquete/paquete.egg-info/requires.txt
+writing top-level names to ../../build/paquete/paquete.egg-info/top_level.txt
+writing manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'
+reading manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ros2_ws/build/paquete/build
+creating /home/robot/ros2_ws/build/paquete/build/lib
+creating /home/robot/ros2_ws/build/paquete/build/lib/paquete
+copying paquete/nodoSimple.py -> /home/robot/ros2_ws/build/paquete/build/lib/paquete
+copying paquete/__init__.py -> /home/robot/ros2_ws/build/paquete/build/lib/paquete
+running install
+running install_lib
+creating /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete
+copying /home/robot/ros2_ws/build/paquete/build/lib/paquete/nodoSimple.py -> /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete
+copying /home/robot/ros2_ws/build/paquete/build/lib/paquete/__init__.py -> /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete
+byte-compiling /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete/nodoSimple.py to nodoSimple.cpython-312.pyc
+byte-compiling /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/robot/ros2_ws/install/paquete/share/ament_index
+creating /home/robot/ros2_ws/install/paquete/share/ament_index/resource_index
+creating /home/robot/ros2_ws/install/paquete/share/ament_index/resource_index/packages
+copying resource/paquete -> /home/robot/ros2_ws/install/paquete/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ros2_ws/install/paquete/share/paquete
+running install_egg_info
+Copying ../../build/paquete/paquete.egg-info to /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nodoSimple script to /home/robot/ros2_ws/install/paquete/lib/paquete
+writing list of installed files to '/home/robot/ros2_ws/build/paquete/install.log'

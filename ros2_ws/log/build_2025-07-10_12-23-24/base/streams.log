@@ -1,0 +1,38 @@
+[2.835s] Invoking command in '/home/robot/ros2_ws/src/base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base build --build-base /home/robot/ros2_ws/build/base/build install --record /home/robot/ros2_ws/build/base/install.log --single-version-externally-managed install_data
+[3.459s] running egg_info
+[3.459s] creating ../../build/base/base.egg-info
+[3.503s] writing ../../build/base/base.egg-info/PKG-INFO
+[3.505s] writing dependency_links to ../../build/base/base.egg-info/dependency_links.txt
+[3.505s] writing entry points to ../../build/base/base.egg-info/entry_points.txt
+[3.505s] writing requirements to ../../build/base/base.egg-info/requires.txt
+[3.506s] writing top-level names to ../../build/base/base.egg-info/top_level.txt
+[3.506s] writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+[3.596s] reading manifest file '../../build/base/base.egg-info/SOURCES.txt'
+[3.596s] adding license file 'LICENSE'
+[3.598s] writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+[3.598s] running build
+[3.598s] running build_py
+[3.599s] creating /home/robot/ros2_ws/build/base/build
+[3.601s] creating /home/robot/ros2_ws/build/base/build/lib
+[3.601s] creating /home/robot/ros2_ws/build/base/build/lib/base
+[3.601s] copying base/my_node.py -> /home/robot/ros2_ws/build/base/build/lib/base
+[3.601s] copying base/__init__.py -> /home/robot/ros2_ws/build/base/build/lib/base
+[3.602s] running install
+[3.615s] running install_lib
+[3.662s] creating /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base
+[3.664s] copying /home/robot/ros2_ws/build/base/build/lib/base/my_node.py -> /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base
+[3.664s] copying /home/robot/ros2_ws/build/base/build/lib/base/__init__.py -> /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base
+[3.664s] byte-compiling /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base/my_node.py to my_node.cpython-312.pyc
+[3.665s] byte-compiling /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base/__init__.py to __init__.cpython-312.pyc
+[3.666s] running install_data
+[3.666s] creating /home/robot/ros2_ws/install/base/share/ament_index
+[3.667s] creating /home/robot/ros2_ws/install/base/share/ament_index/resource_index
+[3.667s] creating /home/robot/ros2_ws/install/base/share/ament_index/resource_index/packages
+[3.668s] copying resource/base -> /home/robot/ros2_ws/install/base/share/ament_index/resource_index/packages
+[3.668s] copying package.xml -> /home/robot/ros2_ws/install/base/share/base
+[3.669s] running install_egg_info
+[3.717s] Copying ../../build/base/base.egg-info to /home/robot/ros2_ws/install/base/lib/python3.12/site-packages/base-0.0.0-py3.12.egg-info
+[3.722s] running install_scripts
+[4.014s] Installing my_node script to /home/robot/ros2_ws/install/base/lib/base
+[4.015s] writing list of installed files to '/home/robot/ros2_ws/build/base/install.log'
+[4.111s] Invoked command in '/home/robot/ros2_ws/src/base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base build --build-base /home/robot/ros2_ws/build/base/build install --record /home/robot/ros2_ws/build/base/install.log --single-version-externally-managed install_data

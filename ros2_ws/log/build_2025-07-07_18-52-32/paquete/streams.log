@@ -1,0 +1,23 @@
+[3.547s] Invoking command in '/home/robot/ros2_ws/src/paquete': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/paquete build --build-base /home/robot/ros2_ws/build/paquete/build install --record /home/robot/ros2_ws/build/paquete/install.log --single-version-externally-managed install_data
+[4.473s] running egg_info
+[4.536s] writing ../../build/paquete/paquete.egg-info/PKG-INFO
+[4.537s] writing dependency_links to ../../build/paquete/paquete.egg-info/dependency_links.txt
+[4.537s] writing entry points to ../../build/paquete/paquete.egg-info/entry_points.txt
+[4.538s] writing requirements to ../../build/paquete/paquete.egg-info/requires.txt
+[4.538s] writing top-level names to ../../build/paquete/paquete.egg-info/top_level.txt
+[4.678s] reading manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'
+[4.678s] adding license file 'LICENSE'
+[4.679s] writing manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'
+[4.680s] running build
+[4.680s] running build_py
+[4.681s] running install
+[4.701s] running install_lib
+[4.771s] running install_data
+[4.772s] running install_egg_info
+[4.844s] removing '/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete-0.0.0-py3.12.egg-info' (and everything under it)
+[4.845s] Copying ../../build/paquete/paquete.egg-info to /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete-0.0.0-py3.12.egg-info
+[4.848s] running install_scripts
+[5.348s] Installing comunicacionROS script to /home/robot/ros2_ws/install/paquete/lib/paquete
+[5.348s] Installing nodoSimple script to /home/robot/ros2_ws/install/paquete/lib/paquete
+[5.351s] writing list of installed files to '/home/robot/ros2_ws/build/paquete/install.log'
+[5.501s] Invoked command in '/home/robot/ros2_ws/src/paquete' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/paquete build --build-base /home/robot/ros2_ws/build/paquete/build install --record /home/robot/ros2_ws/build/paquete/install.log --single-version-externally-managed install_data

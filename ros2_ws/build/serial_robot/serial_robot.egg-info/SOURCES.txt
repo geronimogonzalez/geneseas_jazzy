@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/serial_robot/serial_robot.egg-info/PKG-INFO
+../../build/serial_robot/serial_robot.egg-info/SOURCES.txt
+../../build/serial_robot/serial_robot.egg-info/dependency_links.txt
+../../build/serial_robot/serial_robot.egg-info/entry_points.txt
+../../build/serial_robot/serial_robot.egg-info/requires.txt
+../../build/serial_robot/serial_robot.egg-info/top_level.txt
+../../build/serial_robot/serial_robot.egg-info/zip-safe
+resource/serial_robot
+serial_robot/__init__.py
+serial_robot/communication_serial.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

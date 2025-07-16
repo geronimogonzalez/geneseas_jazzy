@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000713] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.000797] (paquete) JobQueued: {'identifier': 'paquete', 'dependencies': OrderedDict()}
+[0.000853] (serial_robot) JobQueued: {'identifier': 'serial_robot', 'dependencies': OrderedDict()}
+[0.000886] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.021547] (paquete) JobStarted: {'identifier': 'paquete'}
+[0.030070] (serial_robot) JobStarted: {'identifier': 'serial_robot'}
+[0.099768] (-) TimerEvent: {}
+[0.200129] (-) TimerEvent: {}
+[0.300434] (-) TimerEvent: {}
+[0.400733] (-) TimerEvent: {}
+[0.501075] (-) TimerEvent: {}
+[0.601388] (-) TimerEvent: {}
+[0.701737] (-) TimerEvent: {}
+[0.802092] (-) TimerEvent: {}
+[0.902364] (-) TimerEvent: {}
+[1.002633] (-) TimerEvent: {}
+[1.104307] (-) TimerEvent: {}
+[1.206104] (-) TimerEvent: {}
+[1.306502] (-) TimerEvent: {}
+[1.406949] (-) TimerEvent: {}
+[1.507283] (-) TimerEvent: {}
+[1.607600] (-) TimerEvent: {}
+[1.707978] (-) TimerEvent: {}
+[1.809115] (-) TimerEvent: {}
+[1.909471] (-) TimerEvent: {}
+[2.011589] (-) TimerEvent: {}
+[2.113335] (-) TimerEvent: {}
+[2.217246] (-) TimerEvent: {}
+[2.317569] (-) TimerEvent: {}
+[2.417901] (-) TimerEvent: {}
+[2.519115] (-) TimerEvent: {}
+[2.619710] (-) TimerEvent: {}
+[2.633729] (serial_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_robot', 'build', '--build-base', '/home/robot/ros2_ws/build/serial_robot/build', 'install', '--record', '/home/robot/ros2_ws/build/serial_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/ros2_ws/src/serial_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'robot', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2431', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot:@/tmp/.ICE-unix/2249,unix/robot:/tmp/.ICE-unix/2249', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1fa15bd_b81a_4c78_8537_7d1f1cbe3988', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5GU182', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robot/ros2_ws/build/serial_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/build/serial_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.649978] (paquete) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/paquete', 'build', '--build-base', '/home/robot/ros2_ws/build/paquete/build', 'install', '--record', '/home/robot/ros2_ws/build/paquete/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/ros2_ws/src/paquete', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'robot', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2431', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot:@/tmp/.ICE-unix/2249,unix/robot:/tmp/.ICE-unix/2249', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1fa15bd_b81a_4c78_8537_7d1f1cbe3988', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5GU182', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robot/ros2_ws/build/paquete', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/build/paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.674114] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/robot/ros2_ws/build/bno055/build', 'install', '--record', '/home/robot/ros2_ws/build/bno055/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/ros2_ws/src/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'robot', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2431', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot:@/tmp/.ICE-unix/2249,unix/robot:/tmp/.ICE-unix/2249', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1fa15bd_b81a_4c78_8537_7d1f1cbe3988', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5GU182', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robot/ros2_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.719763] (-) TimerEvent: {}
+[2.822122] (-) TimerEvent: {}
+[2.924095] (-) TimerEvent: {}
+[3.024429] (-) TimerEvent: {}
+[3.124776] (-) TimerEvent: {}
+[3.225178] (-) TimerEvent: {}
+[3.228327] (serial_robot) StdoutLine: {'line': b'running egg_info\n'}
+[3.273880] (serial_robot) StdoutLine: {'line': b'writing ../../build/serial_robot/serial_robot.egg-info/PKG-INFO\n'}
+[3.292694] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[3.293317] (bno055) StdoutLine: {'line': b'creating ../../build/bno055/bno055.egg-info\n'}
+[3.293661] (serial_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_robot/serial_robot.egg-info/dependency_links.txt\n'}
+[3.293918] (serial_robot) StdoutLine: {'line': b'writing entry points to ../../build/serial_robot/serial_robot.egg-info/entry_points.txt\n'}
+[3.294234] (serial_robot) StdoutLine: {'line': b'writing requirements to ../../build/serial_robot/serial_robot.egg-info/requires.txt\n'}
+[3.294493] (serial_robot) StdoutLine: {'line': b'writing top-level names to ../../build/serial_robot/serial_robot.egg-info/top_level.txt\n'}
+[3.308125] (paquete) StdoutLine: {'line': b'running egg_info\n'}
+[3.325289] (-) TimerEvent: {}
+[3.342182] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[3.342463] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[3.342650] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[3.342828] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[3.343007] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[3.343208] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.356090] (paquete) StdoutLine: {'line': b'writing ../../build/paquete/paquete.egg-info/PKG-INFO\n'}
+[3.375457] (paquete) StdoutLine: {'line': b'writing dependency_links to ../../build/paquete/paquete.egg-info/dependency_links.txt\n'}
+[3.375848] (paquete) StdoutLine: {'line': b'writing entry points to ../../build/paquete/paquete.egg-info/entry_points.txt\n'}
+[3.376131] (paquete) StdoutLine: {'line': b'writing requirements to ../../build/paquete/paquete.egg-info/requires.txt\n'}
+[3.376404] (paquete) StdoutLine: {'line': b'writing top-level names to ../../build/paquete/paquete.egg-info/top_level.txt\n'}
+[3.381452] (serial_robot) StdoutLine: {'line': b"reading manifest file '../../build/serial_robot/serial_robot.egg-info/SOURCES.txt'\n"}
+[3.389932] (serial_robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.390396] (serial_robot) StdoutLine: {'line': b"writing manifest file '../../build/serial_robot/serial_robot.egg-info/SOURCES.txt'\n"}
+[3.391196] (serial_robot) StdoutLine: {'line': b'running build\n'}
+[3.391402] (serial_robot) StdoutLine: {'line': b'running build_py\n'}
+[3.393931] (serial_robot) StdoutLine: {'line': b'running install\n'}
+[3.406582] (serial_robot) StdoutLine: {'line': b'running install_lib\n'}
+[3.425396] (-) TimerEvent: {}
+[3.430604] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.431410] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.431813] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[3.433321] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.433986] (bno055) StdoutLine: {'line': b'running build\n'}
+[3.434506] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[3.434947] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build\n'}
+[3.435396] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib\n'}
+[3.436229] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.436597] (bno055) StdoutLine: {'line': b'copying bno055/__init__.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.438750] (bno055) StdoutLine: {'line': b'copying bno055/bno055.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.439121] (bno055) StdoutLine: {'line': b'copying bno055/registers.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.439895] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.440696] (bno055) StdoutLine: {'line': b'copying bno055/sensor/SensorService.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.440971] (bno055) StdoutLine: {'line': b'copying bno055/sensor/__init__.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.441660] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.442446] (bno055) StdoutLine: {'line': b'copying bno055/params/NodeParameters.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.442732] (bno055) StdoutLine: {'line': b'copying bno055/params/__init__.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.443826] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.444183] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/exceptions.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.445134] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/__init__.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.445416] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.445694] (bno055) StdoutLine: {'line': b'copying bno055/connectors/uart.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.445949] (bno055) StdoutLine: {'line': b'copying bno055/connectors/i2c.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.449082] (bno055) StdoutLine: {'line': b'copying bno055/connectors/Connector.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.449308] (bno055) StdoutLine: {'line': b'copying bno055/connectors/__init__.py -> /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.449449] (bno055) StdoutLine: {'line': b'running install\n'}
+[3.451717] (serial_robot) StdoutLine: {'line': b'running install_data\n'}
+[3.452671] (serial_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.465101] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[3.476247] (paquete) StdoutLine: {'line': b"reading manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'\n"}
+[3.477795] (paquete) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.478129] (paquete) StdoutLine: {'line': b"writing manifest file '../../build/paquete/paquete.egg-info/SOURCES.txt'\n"}
+[3.478296] (paquete) StdoutLine: {'line': b'running build\n'}
+[3.478470] (paquete) StdoutLine: {'line': b'running build_py\n'}
+[3.479922] (paquete) StdoutLine: {'line': b'running install\n'}
+[3.495662] (paquete) StdoutLine: {'line': b'running install_lib\n'}
+[3.500134] (serial_robot) StdoutLine: {'line': b"removing '/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.500411] (serial_robot) StdoutLine: {'line': b'Copying ../../build/serial_robot/serial_robot.egg-info to /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot-0.0.0-py3.12.egg-info\n'}
+[3.501125] (serial_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.512098] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.512312] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/bno055.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.512422] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.512591] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.512875] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.514088] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.514348] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.514534] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.514729] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/registers.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.514981] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.515252] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.515446] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.515677] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.515919] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.516183] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.516936] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.517162] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.518420] (bno055) StdoutLine: {'line': b'copying /home/robot/ros2_ws/build/bno055/build/lib/bno055/__init__.py -> /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.519109] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055.py to bno055.cpython-312.pyc\n'}
+[3.522163] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-312.pyc\n'}
+[3.525888] (-) TimerEvent: {}
+[3.531751] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__init__.py to __init__.cpython-312.pyc\n'}
+[3.532632] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-312.pyc\n'}
+[3.536429] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/__init__.py to __init__.cpython-312.pyc\n'}
+[3.540362] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/registers.py to registers.cpython-312.pyc\n'}
+[3.540715] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-312.pyc\n'}
+[3.541946] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/__init__.py to __init__.cpython-312.pyc\n'}
+[3.542808] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/uart.py to uart.cpython-312.pyc\n'}
+[3.545089] (paquete) StdoutLine: {'line': b'running install_data\n'}
+[3.545619] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/i2c.py to i2c.cpython-312.pyc\n'}
+[3.546122] (paquete) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.549086] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/Connector.py to Connector.cpython-312.pyc\n'}
+[3.549328] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/__init__.py to __init__.cpython-312.pyc\n'}
+[3.549539] (bno055) StdoutLine: {'line': b'byte-compiling /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__init__.py to __init__.cpython-312.pyc\n'}
+[3.549745] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[3.549949] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/share/ament_index\n'}
+[3.550250] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/share/ament_index/resource_index\n'}
+[3.550483] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[3.550705] (bno055) StdoutLine: {'line': b'copying resource/bno055 -> /home/robot/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[3.550908] (bno055) StdoutLine: {'line': b'copying package.xml -> /home/robot/ros2_ws/install/bno055/share/bno055\n'}
+[3.552121] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/share/bno055/launch\n'}
+[3.552516] (bno055) StdoutLine: {'line': b'copying launch/bno055.launch.py -> /home/robot/ros2_ws/install/bno055/share/bno055/launch\n'}
+[3.552765] (bno055) StdoutLine: {'line': b'creating /home/robot/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.555636] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params.yaml -> /home/robot/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.555832] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_i2c.yaml -> /home/robot/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.556012] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_test.yaml -> /home/robot/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.556225] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.591182] (paquete) StdoutLine: {'line': b"removing '/home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.592378] (paquete) StdoutLine: {'line': b'Copying ../../build/paquete/paquete.egg-info to /home/robot/ros2_ws/install/paquete/lib/python3.12/site-packages/paquete-0.0.0-py3.12.egg-info\n'}
+[3.593310] (paquete) StdoutLine: {'line': b'running install_scripts\n'}
+[3.606475] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/robot/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info\n'}
+[3.609080] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[3.625977] (-) TimerEvent: {}
+[3.727239] (-) TimerEvent: {}
+[3.827608] (-) TimerEvent: {}
+[3.833205] (serial_robot) StdoutLine: {'line': b'Installing serial_communication script to /home/robot/ros2_ws/install/serial_robot/lib/serial_robot\n'}
+[3.833606] (serial_robot) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ros2_ws/build/serial_robot/install.log'\n"}
+[3.905835] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/robot/ros2_ws/install/bno055/lib/bno055\n'}
+[3.908762] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ros2_ws/build/bno055/install.log'\n"}
+[3.911120] (paquete) StdoutLine: {'line': b'Installing comunicacionROS script to /home/robot/ros2_ws/install/paquete/lib/paquete\n'}
+[3.914987] (serial_robot) CommandEnded: {'returncode': 0}
+[3.915873] (paquete) StdoutLine: {'line': b'Installing nodoSimple script to /home/robot/ros2_ws/install/paquete/lib/paquete\n'}
+[3.916736] (paquete) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ros2_ws/build/paquete/install.log'\n"}
+[3.928676] (-) TimerEvent: {}
+[3.948869] (serial_robot) JobEnded: {'identifier': 'serial_robot', 'rc': 0}
+[3.994272] (bno055) CommandEnded: {'returncode': 0}
+[4.005861] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[4.014569] (paquete) CommandEnded: {'returncode': 0}
+[4.028792] (-) TimerEvent: {}
+[4.038272] (paquete) JobEnded: {'identifier': 'paquete', 'rc': 0}
+[4.040592] (-) EventReactorShutdown: {}

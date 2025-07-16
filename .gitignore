@@ -1,0 +1,11 @@
+# Ignorar carpetas de build
+build/
+install/
+log/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar configuraciones de VSCode
+.vscode/

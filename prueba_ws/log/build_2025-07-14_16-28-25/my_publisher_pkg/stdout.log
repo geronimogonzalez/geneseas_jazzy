@@ -1,0 +1,37 @@
+running develop
+Removing /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my-publisher-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/pi_controller_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/square_wave_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/publisher_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/__init__.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/pi_controller_node.py to pi_controller_node.cpython-312.pyc
+byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/square_wave_node.py to square_wave_node.cpython-312.pyc
+byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/publisher_node.py to publisher_node.cpython-312.pyc
+byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/my_publisher_pkg -> /home/robot/prueba_ws/install/my_publisher_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg
+copying launch/pi_control_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+copying launch/publisher_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+copying launch/square_wave_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+copying launch/curva_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+running install_egg_info
+Copying ../../build/my_publisher_pkg/my_publisher_pkg.egg-info to /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pi_controller script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+Installing publisher_node script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+Installing square_wave_publisher script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+writing list of installed files to '/home/robot/prueba_ws/build/my_publisher_pkg/install.log'

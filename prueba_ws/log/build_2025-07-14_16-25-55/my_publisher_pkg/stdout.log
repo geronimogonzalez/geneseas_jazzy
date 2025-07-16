@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing my_publisher_pkg.egg-info/PKG-INFO
+writing dependency_links to my_publisher_pkg.egg-info/dependency_links.txt
+writing entry points to my_publisher_pkg.egg-info/entry_points.txt
+writing requirements to my_publisher_pkg.egg-info/requires.txt
+writing top-level names to my_publisher_pkg.egg-info/top_level.txt
+reading manifest file 'my_publisher_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_publisher_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my-publisher-pkg.egg-link (link to .)
+Installing pi_controller script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+Installing publisher_node script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+Installing square_wave_publisher script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+
+Installed /home/robot/prueba_ws/build/my_publisher_pkg
+running symlink_data
+symbolically linking /home/robot/prueba_ws/build/my_publisher_pkg/resource/my_publisher_pkg -> /home/robot/prueba_ws/install/my_publisher_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/robot/prueba_ws/build/my_publisher_pkg/package.xml -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg
+symbolically linking /home/robot/prueba_ws/build/my_publisher_pkg/launch/square_wave_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch

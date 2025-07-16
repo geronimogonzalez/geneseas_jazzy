@@ -1,0 +1,5 @@
+[console_scripts]
+pi_controller = my_publisher_pkg.pi_controller_node:main
+publisher_node = my_publisher_pkg.publisher_node:main
+square_wave_publisher = my_publisher_pkg.square_wave_node:main
+zigzag_wave_publisher = my_publisher_pkg.zigzag_wave_node:main

@@ -1,0 +1,41 @@
+[1.039s] Invoking command in '/home/robot/prueba_ws/build/my_publisher_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/prueba_ws/build/my_publisher_pkg/build
+[1.431s] running develop
+[1.694s] Removing /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my-publisher-pkg.egg-link (link to .)
+[1.744s] Invoked command in '/home/robot/prueba_ws/build/my_publisher_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/prueba_ws/build/my_publisher_pkg/build
+[1.745s] Invoking command in '/home/robot/prueba_ws/src/my_publisher_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher_pkg build --build-base /home/robot/prueba_ws/build/my_publisher_pkg/build install --record /home/robot/prueba_ws/build/my_publisher_pkg/install.log --single-version-externally-managed install_data --force
+[2.090s] running egg_info
+[2.117s] writing ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/PKG-INFO
+[2.118s] writing dependency_links to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/dependency_links.txt
+[2.118s] writing entry points to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/entry_points.txt
+[2.118s] writing requirements to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/requires.txt
+[2.118s] writing top-level names to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/top_level.txt
+[2.170s] reading manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+[2.170s] writing manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+[2.171s] running build
+[2.171s] running build_py
+[2.171s] running install
+[2.179s] running install_lib
+[2.204s] creating /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[2.204s] copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/pi_controller_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[2.204s] copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/square_wave_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[2.205s] copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/publisher_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[2.205s] copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/__init__.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[2.206s] byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/pi_controller_node.py to pi_controller_node.cpython-312.pyc
+[2.208s] byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/square_wave_node.py to square_wave_node.cpython-312.pyc
+[2.209s] byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/publisher_node.py to publisher_node.cpython-312.pyc
+[2.210s] byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/__init__.py to __init__.cpython-312.pyc
+[2.211s] running install_data
+[2.211s] copying resource/my_publisher_pkg -> /home/robot/prueba_ws/install/my_publisher_pkg/share/ament_index/resource_index/packages
+[2.211s] copying package.xml -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg
+[2.211s] copying launch/pi_control_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+[2.211s] copying launch/publisher_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+[2.212s] copying launch/square_wave_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+[2.212s] copying launch/curva_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+[2.212s] running install_egg_info
+[2.240s] Copying ../../build/my_publisher_pkg/my_publisher_pkg.egg-info to /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg-0.0.0-py3.12.egg-info
+[2.241s] running install_scripts
+[2.409s] Installing pi_controller script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[2.409s] Installing publisher_node script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[2.409s] Installing square_wave_publisher script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[2.410s] writing list of installed files to '/home/robot/prueba_ws/build/my_publisher_pkg/install.log'
+[2.453s] Invoked command in '/home/robot/prueba_ws/src/my_publisher_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher_pkg build --build-base /home/robot/prueba_ws/build/my_publisher_pkg/build install --record /home/robot/prueba_ws/build/my_publisher_pkg/install.log --single-version-externally-managed install_data --force

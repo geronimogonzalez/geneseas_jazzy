@@ -1,0 +1,38 @@
+[1.212s] Invoking command in '/home/robot/ros2_ws/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /home/robot/ros2_ws/build/my_package/build install --record /home/robot/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[1.517s] running egg_info
+[1.518s] creating ../build/my_package/my_package.egg-info
+[1.540s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[1.540s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[1.541s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[1.541s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[1.541s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[1.542s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.586s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.587s] adding license file 'LICENSE'
+[1.587s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.587s] running build
+[1.588s] running build_py
+[1.588s] creating /home/robot/ros2_ws/build/my_package/build
+[1.588s] creating /home/robot/ros2_ws/build/my_package/build/lib
+[1.588s] creating /home/robot/ros2_ws/build/my_package/build/lib/my_package
+[1.588s] copying my_package/my_node.py -> /home/robot/ros2_ws/build/my_package/build/lib/my_package
+[1.588s] copying my_package/__init__.py -> /home/robot/ros2_ws/build/my_package/build/lib/my_package
+[1.589s] running install
+[1.597s] running install_lib
+[1.621s] creating /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[1.621s] copying /home/robot/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[1.621s] copying /home/robot/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[1.622s] byte-compiling /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/my_node.py to my_node.cpython-312.pyc
+[1.622s] byte-compiling /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+[1.622s] running install_data
+[1.623s] creating /home/robot/ros2_ws/install/my_package/share/ament_index
+[1.623s] creating /home/robot/ros2_ws/install/my_package/share/ament_index/resource_index
+[1.623s] creating /home/robot/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.623s] copying resource/my_package -> /home/robot/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.623s] copying package.xml -> /home/robot/ros2_ws/install/my_package/share/my_package
+[1.623s] running install_egg_info
+[1.648s] Copying ../build/my_package/my_package.egg-info to /home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[1.649s] running install_scripts
+[1.798s] Installing my_node script to /home/robot/ros2_ws/install/my_package/lib/my_package
+[1.798s] writing list of installed files to '/home/robot/ros2_ws/build/my_package/install.log'
+[1.841s] Invoked command in '/home/robot/ros2_ws/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /home/robot/ros2_ws/build/my_package/build install --record /home/robot/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data

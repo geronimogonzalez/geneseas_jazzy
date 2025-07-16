@@ -1,0 +1,28 @@
+[0.990s] Invoking command in '/home/robot/prueba_ws/src/my_publisher_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher_pkg build --build-base /home/robot/prueba_ws/build/my_publisher_pkg/build install --record /home/robot/prueba_ws/build/my_publisher_pkg/install.log --single-version-externally-managed install_data
+[1.310s] running egg_info
+[1.332s] writing ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/PKG-INFO
+[1.333s] writing dependency_links to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/dependency_links.txt
+[1.333s] writing entry points to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/entry_points.txt
+[1.333s] writing requirements to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/requires.txt
+[1.334s] writing top-level names to ../../build/my_publisher_pkg/my_publisher_pkg.egg-info/top_level.txt
+[1.382s] reading manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+[1.384s] writing manifest file '../../build/my_publisher_pkg/my_publisher_pkg.egg-info/SOURCES.txt'
+[1.384s] running build
+[1.384s] running build_py
+[1.384s] copying my_publisher_pkg/zigzag_wave_node.py -> /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg
+[1.385s] running install
+[1.393s] running install_lib
+[1.419s] copying /home/robot/prueba_ws/build/my_publisher_pkg/build/lib/my_publisher_pkg/zigzag_wave_node.py -> /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg
+[1.420s] byte-compiling /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg/zigzag_wave_node.py to zigzag_wave_node.cpython-312.pyc
+[1.421s] running install_data
+[1.421s] copying launch/zigzag_wave_launch.py -> /home/robot/prueba_ws/install/my_publisher_pkg/share/my_publisher_pkg/launch
+[1.422s] running install_egg_info
+[1.448s] removing '/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.448s] Copying ../../build/my_publisher_pkg/my_publisher_pkg.egg-info to /home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages/my_publisher_pkg-0.0.0-py3.12.egg-info
+[1.449s] running install_scripts
+[1.622s] Installing pi_controller script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[1.622s] Installing publisher_node script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[1.622s] Installing square_wave_publisher script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[1.622s] Installing zigzag_wave_publisher script to /home/robot/prueba_ws/install/my_publisher_pkg/lib/my_publisher_pkg
+[1.623s] writing list of installed files to '/home/robot/prueba_ws/build/my_publisher_pkg/install.log'
+[1.666s] Invoked command in '/home/robot/prueba_ws/src/my_publisher_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/prueba_ws/build/my_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/prueba_ws/install/my_publisher_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_publisher_pkg build --build-base /home/robot/prueba_ws/build/my_publisher_pkg/build install --record /home/robot/prueba_ws/build/my_publisher_pkg/install.log --single-version-externally-managed install_data

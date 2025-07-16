@@ -1,0 +1,38 @@
+[3.676s] Invoking command in '/home/robot/ros2_ws/src/serial_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/serial_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_robot build --build-base /home/robot/ros2_ws/build/serial_robot/build install --record /home/robot/ros2_ws/build/serial_robot/install.log --single-version-externally-managed install_data
+[4.765s] running egg_info
+[4.765s] creating ../../build/serial_robot/serial_robot.egg-info
+[4.861s] writing ../../build/serial_robot/serial_robot.egg-info/PKG-INFO
+[4.861s] writing dependency_links to ../../build/serial_robot/serial_robot.egg-info/dependency_links.txt
+[4.862s] writing entry points to ../../build/serial_robot/serial_robot.egg-info/entry_points.txt
+[4.862s] writing requirements to ../../build/serial_robot/serial_robot.egg-info/requires.txt
+[4.863s] writing top-level names to ../../build/serial_robot/serial_robot.egg-info/top_level.txt
+[4.863s] writing manifest file '../../build/serial_robot/serial_robot.egg-info/SOURCES.txt'
+[5.037s] reading manifest file '../../build/serial_robot/serial_robot.egg-info/SOURCES.txt'
+[5.038s] adding license file 'LICENSE'
+[5.040s] writing manifest file '../../build/serial_robot/serial_robot.egg-info/SOURCES.txt'
+[5.042s] running build
+[5.042s] running build_py
+[5.044s] creating /home/robot/ros2_ws/build/serial_robot/build
+[5.045s] creating /home/robot/ros2_ws/build/serial_robot/build/lib
+[5.046s] creating /home/robot/ros2_ws/build/serial_robot/build/lib/serial_robot
+[5.048s] copying serial_robot/__init__.py -> /home/robot/ros2_ws/build/serial_robot/build/lib/serial_robot
+[5.049s] copying serial_robot/ejemplin.py -> /home/robot/ros2_ws/build/serial_robot/build/lib/serial_robot
+[5.050s] running install
+[5.075s] running install_lib
+[5.146s] creating /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot
+[5.148s] copying /home/robot/ros2_ws/build/serial_robot/build/lib/serial_robot/__init__.py -> /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot
+[5.149s] copying /home/robot/ros2_ws/build/serial_robot/build/lib/serial_robot/ejemplin.py -> /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot
+[5.149s] byte-compiling /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot/__init__.py to __init__.cpython-312.pyc
+[5.149s] byte-compiling /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot/ejemplin.py to ejemplin.cpython-312.pyc
+[5.150s] running install_data
+[5.151s] creating /home/robot/ros2_ws/install/serial_robot/share/ament_index
+[5.151s] creating /home/robot/ros2_ws/install/serial_robot/share/ament_index/resource_index
+[5.151s] creating /home/robot/ros2_ws/install/serial_robot/share/ament_index/resource_index/packages
+[5.152s] copying resource/serial_robot -> /home/robot/ros2_ws/install/serial_robot/share/ament_index/resource_index/packages
+[5.152s] copying package.xml -> /home/robot/ros2_ws/install/serial_robot/share/serial_robot
+[5.152s] running install_egg_info
+[5.232s] Copying ../../build/serial_robot/serial_robot.egg-info to /home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages/serial_robot-0.0.0-py3.12.egg-info
+[5.233s] running install_scripts
+[5.764s] Installing ejemplin script to /home/robot/ros2_ws/install/serial_robot/lib/serial_robot
+[5.765s] writing list of installed files to '/home/robot/ros2_ws/build/serial_robot/install.log'
+[5.922s] Invoked command in '/home/robot/ros2_ws/src/serial_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/serial_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/serial_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_robot build --build-base /home/robot/ros2_ws/build/serial_robot/build install --record /home/robot/ros2_ws/build/serial_robot/install.log --single-version-externally-managed install_data
