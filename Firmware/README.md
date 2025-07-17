@@ -8,3 +8,5 @@
 - Otras funcionalidades complementarias necesarias para el funcionamiento del sistema.
 
 Este firmware está diseñado para ejecutarse en una placa Arduino Mega.
+
+`MegaServo` es una libreria necesaria para la compilacion del código encaragda de la generacion de los PWM
