@@ -27,6 +27,7 @@ setup(
             'pi_controller = my_publisher_pkg.pi_controller_node:main',
             'square_wave_publisher = my_publisher_pkg.square_wave_node:main',
             'zigzag_wave_publisher = my_publisher_pkg.zigzag_wave_node:main',
+            'prbs_publisher = my_publisher_pkg.prbs_node:main',
         ],
     },
 )
